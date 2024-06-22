@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+.light {
+  background-color: #111;
+  width: 100vw;
+  height: 100vh;
+}
+.dark-mode {
+  background-color: white;
+}
+.background {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  width: 15em;
+  height: 26em;
+  background-color: white;
+}
+.dark-mode .container {
+  background-color: #111;
+}
+.display {
+  height: 8em;
+  width: 15em;
+  background-color: white;
+}
+
+.dark-mode .heading{
+  color: white;
+}
+.dark-mode .display {
+  background-color: #111;
+}
+.dark-mode #display {
+  background-color: #111;
+  color: white;
+}
+.dark-mode hr {
+  background-color: black;
+}
+.row-1 {
+  margin-top: 7px;
+}
+
+.row-5 {
+  margin-top: -10px;
+}
+#display {
+  border: none;
+  width: 7em;
+  font-size: 33px;
+  text-align: right;
+}
+.equal {
+  height: 40px;
+  width: 40px;
+  background-color: #f97137;
+  border-radius: 50%;
+  color: white;
+}
+
+.dark-mode .equal {
+  height: 40px;
+  width: 40px;
+  background-color: #f97137;
+  border-radius: 50%;
+  color: white;
+}
+button {
+  background-color: white;
+  border: none;
+}
+
+.dark-mode button {
+  background-color: #111;
+}
+.fa-solid {
+  position: relative;
+  top: 1px;
+}

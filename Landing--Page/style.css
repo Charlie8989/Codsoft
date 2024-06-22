@@ -1,0 +1,161 @@
+@font-face {
+  font-family: nord;
+  src: url(Nord-Regular.ttf);
+}
+@font-face {
+  font-family: lemon;
+  src: url(LEMONMILK-Bold.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  font-family: poppins;
+}
+.navbar {
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.left-nav {
+  width: 50vw;
+  height: 50px;
+  margin-left: 35px;
+  color: #b8c9d5;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: none;
+}
+ul {
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 50px;
+  padding-right: 35px;
+  color: rgb(199 197 197);
+  font-size: 20px;
+  font-weight: 400;
+}
+ul li {
+  list-style-type: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: #b8c9d5;
+  font-weight: 500;
+}
+.main {
+  font-family: lemon;
+  font-weight: 500;
+  height: 20vh;
+  width: 100vw;
+  color: rgb(199 197 197);
+  font-size: 6em;
+  padding-top: 1em;
+}
+img {
+  width: 75em;
+  position: relative;
+  top: -19em;
+  left: 12rem;
+}
+.specs {
+  width: 100vw;
+  height: 40vh;
+  position: relative;
+  top: -32rem;
+  justify-content: space-evenly;
+}
+
+.specs-right {
+  position: relative;
+  top: 7em;
+  left: 1.5em;
+  width: 35vw;
+  height: 20vh;
+  padding: 1.5em;
+}
+.specs-left {
+  position: relative;
+  top: 7em;
+  left: 1.5em;
+  width: 35vw;
+  height: 20vh;
+  background-color: #1c1c1c;
+  border-radius: 2em;
+  padding: 1.5em;
+}
+h3 {
+  font-family: lemon;
+  font-size: 2em;
+  color: #b8c9d5;
+}
+.content {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+.acc {
+  width: 12vw;
+  height: 20vh;
+  background-color: #1c1c1c;
+  margin-right: 10px;
+  font-family: lemon;
+  font-weight: 600;
+  color: white;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.speed {
+  height: 20vh;
+  width: 7vw;
+  background-color: #1c1c1c;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.sec {
+  font-family: poppins;
+  font-weight: 300;
+  color: white;
+  font-size: 16px;
+}
+.icon-box {
+  color: #ed4c50;
+}
+.speedometer {
+  font-size: 65px;
+  width: 100%;
+  margin: 0 auto;
+}
+.trend {
+  font-size: 50px;
+}
+.top {
+  font-family: lemon;
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  top: -22px;
+  margin-left: 10px;
+}
+.bg{
+  font-size: 10px;
+}
+.power-icon {
+  margin-top: 6px;
+  font-size: 38px;
+}
+.power{
+  font-family: lemon;
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  margin-left: 10px;
+  top: -15px;
+}

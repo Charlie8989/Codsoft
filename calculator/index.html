@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="utlis.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a90abe96ae.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="light">
+    <div class="background flex center">
+    <div class="container">
+      <div class="heading flex center">CALCULATOR</div>
+      <hr>
+      <div class="display flex">
+        <input type="text" id="display" placeholder="0" />
+      </div>
+      <hr />
+      <div class="buttons">
+        <div class="row-1 flex rows">
+          <button onclick="clearDisplay()" class="flex center keys color">AC</button>
+          <button onclick="clearNumber()" class="flex center keys color">DE</button>
+          <button onclick="appendNumber('%')" class="flex center keys color">%</button>
+          <button onclick="appendNumber('/')" class="flex center keys color">÷</button>
+        </div>
+        <div class="row-2 flex rows mx">
+          <button onclick="appendNumber('7')" class="flex center keys black">7</button>
+          <button onclick="appendNumber('8')" class="flex center keys black">8</button>
+          <button onclick="appendNumber('9')" class="flex center keys black">9</button>
+          <button onclick="appendNumber('*')" class="flex center keys color">x</button>
+        </div>
+        <div class="row-3 flex rows mx">
+          <button onclick="appendNumber('4')" class="flex center keys black">4</button>
+          <button onclick="appendNumber('5')" class="flex center keys black">5</button>
+          <button onclick="appendNumber('6')" class="flex center keys black">6</button>
+          <button onclick="appendNumber('-')" class="flex center keys color">-</button>
+        </div>
+        <div class="row-4 flex rows mx">
+          <button onclick="appendNumber('1')" class="flex center keys black">1</button>
+          <button onclick="appendNumber('2')" class="flex center keys black">2</button>
+          <button onclick="appendNumber('3')" class="flex center keys black">3</button>
+          <button onclick="appendNumber('+')" class="flex center keys color">+</button>
+        </div>
+
+        <div class="row-5 flex rows ">
+          <button class="flex center keys black" id="dark-mode-switch" ><i class="fa-solid fa-moon"></i></button>
+          <button onclick="appendNumber('0')" class="flex center keys black">0</button>
+          <button onclick="appendNumber('.')" class="flex center keys black">.</button>
+          <button onclick="calculate()" class=" equal flex center">=</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+const b=document.getElementById("contact-button")
+b.addEventListener("click",function(){
+  location.href="#section-4"
+})
+document.getElementById("home").addEventListener("click",function(){
+  location.href="#section-1"
+})
+document.getElementById("about").addEventListener("click",function(){
+  location.href="#section-2"
+})
+document.getElementById("resume").addEventListener("click",function(){
+  location.href="#section-2"
+})
+document.getElementById("contact").addEventListener("click",function(){
+  location.href="#section-4"
+})
+document.getElementById("CV").addEventListener("click",function(){
+  location.href="https://drive.google.com/file/d/16pMoxL1CubQifx9JXyxZ3n_hC1bbEF73/view?usp=drive_link"
+})
